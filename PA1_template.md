@@ -99,6 +99,7 @@ summary(tot_Steps)
 ##       0    6780   10400    9350   12800   21200
 ```
 
+After using the mean value for our missing data, we see our mean and median for total number of steps in a day rise to 10800.
 
 
 ## Are there differences in activity patterns between weekdays and weekends?
@@ -126,3 +127,5 @@ plot(avgWeekdaySteps ~ names(avgWeekdaySteps), type = "l", xlab = "Weekday Inter
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+
+We can see from our plots that there seems to be more total activity during the weekend, and the number of steps seem to be more evenly distributed throughout the day than they are during the weekdays.
