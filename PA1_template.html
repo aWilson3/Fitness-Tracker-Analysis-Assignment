@@ -202,6 +202,8 @@ hist(tot_Steps, breaks = 10, col = &quot;light blue&quot;, main = &quot;Total Nu
 ##       0    6780   10400    9350   12800   21200
 </code></pre>
 
+<p>Using the summary function, we can see that the mean number of steps taken per day is 9350 and the median is 10400</p>
+
 <h2>What is the average daily activity pattern?</h2>
 
 <pre><code class="r">Avg_Steps &lt;- tapply(activity$steps, activity$interval, mean, na.rm = TRUE)
@@ -223,6 +225,8 @@ plot(Avg_Steps ~ names(Avg_Steps), type = &quot;l&quot;, col = &quot;dark blue&q
 <pre><code>## 835 
 ## 104
 </code></pre>
+
+<p>We can see, using the max and which.max functions, that the interval with the highest average number of steps is the 835 interval, and the max value is 206.2</p>
 
 <h2>Imputing missing values</h2>
 

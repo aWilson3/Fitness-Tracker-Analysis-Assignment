@@ -35,6 +35,7 @@ summary(tot_Steps)
 ##       0    6780   10400    9350   12800   21200
 ```
 
+Using the summary function, we can see that the mean number of steps taken per day is 9350 and the median is 10400
 
 
 ## What is the average daily activity pattern?
@@ -64,6 +65,7 @@ which.max(Avg_Steps)
 ## 104
 ```
 
+We can see, using the max and which.max functions, that the interval with the highest average number of steps is the 835 interval, and the max value is 206.2
 
 ## Imputing missing values
 
