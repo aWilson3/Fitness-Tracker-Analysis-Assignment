@@ -44,6 +44,7 @@ tot_StepsImputed <- tapply(activity_imputed$steps, activity_imputed$date, sum)
 summary(tot_StepsImputed)
 summary(tot_Steps)
 ```
+After using the mean value for our missing data, we see our mean and median for total number of steps in a day rise to 10800.
 
 
 ## Are there differences in activity patterns between weekdays and weekends?
@@ -66,3 +67,5 @@ plot(avgWeekendSteps ~ names(avgWeekendSteps), type = 'l', xlab = 'Weekend Inter
 plot(avgWeekdaySteps ~ names(avgWeekdaySteps), type = 'l', xlab = 'Weekday Interval', ylab = 'steps')
 
 ```
+
+We can see from our plots that there seems to be more total activity during the weekend, and the number of steps seem to be more evenly distributed throughout the day than they are during the weekdays.
