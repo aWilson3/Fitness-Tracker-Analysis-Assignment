@@ -1,3 +1,6 @@
+## The below assignment instructions were provided by instructors of the Data Science specialization on Coursera.org
+***
+
 ## Introduction
 
 It is now possible to collect a large amount of data about personal
